@@ -5,7 +5,6 @@ Cargo.lock
 *.pdb
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -13,8 +12,6 @@ Cargo.lock
 .DS_Store
 
 # Environment
-.env
-.env.local
 .env.*.local
 
 # Build artifacts
@@ -28,3 +25,5 @@ Cargo.lock
 test_snapshots/fuzz_*
 issue.md
 pr.md
+config.bat
+node_modules
